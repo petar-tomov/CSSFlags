@@ -1,0 +1,95 @@
+	.container{
+		position:relative;
+		height:200px;
+		width:350px
+	}
+	
+	.topleft{
+		position:absolute;
+		left:0;
+		top:0;
+	}
+	
+	.topright{
+		position:absolute;
+		right:0;
+		top:0;
+	}
+	
+	.bottomleft{
+		position:absolute;
+		left:0;
+		bottom:0;
+	}
+	
+	.bottomright{
+		position:absolute;
+		right:0;
+		bottom:0;
+	}
+	
+	.middle{
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+		-ms-transform:translate(-50%,-50%);
+	}
+	
+	.left{
+		position:absolute;
+		top:50%;
+		left:0%;
+		transform:translate(0%,-50%);
+		-ms-transform:translate(-0%,-50%);
+	}
+	
+	.right{
+		position:absolute;
+		top:50%;
+		right:0%;
+		transform:translate(0%,-50%);
+		-ms-transform:translate(0%,-50%);
+	}
+	
+	.topmiddle{
+		position:absolute;
+		left:50%;
+		top:0;
+		transform:translate(-50%,0%);
+		-ms-transform:translate(-50%,0%);
+	}
+	
+	.bottommiddle{
+		position:absolute;
+		left:50%;
+		bottom:0;
+		transform:translate(-50%,0%);
+		-ms-transform:translate(-50%,0%);
+	}
+	
+	.bottommid-nor{
+		position:absolute;
+		left:33%;
+		bottom:0;
+		transform:translate(-50%,0%);
+		-ms-transform:translate(-50%,0%);
+	}
+
+	.margin{
+		margin:16px!important;
+	}
+
+	.card{ 
+		box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19); 
+	}
+	
+	.circle{
+		border-radius: 50%;
+	}
+
+/* Colors */
+.green{background-color:#4CAF50!important}
+.indigo{background-color:#3f51b5!important}
+.red{background-color:#f44336!important}
+.white{background-color:#fff!important}
